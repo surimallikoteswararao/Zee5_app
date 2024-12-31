@@ -1,0 +1,15 @@
+#main_div{
+    width: 150px;
+    height: 200px;
+    background-color: black;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div_elements{
+    width: auto;
+    height: 20px;
+    color: white;
+  
+    text-align: center;
+}

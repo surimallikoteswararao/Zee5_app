@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(251, 249, 249);
+    
+}
+body{
+  background-color: rgb(15, 15, 48);
+}
+header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 31, 81);
+   
+}
+.header_elem1{
+    width: 80px;
+    height: 30px;
+}
+.header_elem{
+    
+    width: 80px;
+    height: 30px;
+    transition: 1s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header_elem:hover{
+    text-decoration: underline;
+    transform: scaleX(1.1);
+}
+img[alt="zee_icon"]{
+  height: 80px;
+  width: 80px;
+    margin-top: -25px;
+}
+#header_search{
+    height: 30px;
+    padding: 10px 20px;
+}
+#search_container{
+    position: relative; 
+    display: inline-block; 
+    
+  }
+  #search_container input {
+    padding: 10px 20px 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #space{
+    width: 100px;
+
+  }
+  
+  #search_icon {
+    position: absolute;
+    top: 20%;
+     left: 10px;/* Adjust left value as needed */
+    pointer-events: none; /* Prevent icon from being clicked */
+  }
+  #header_search{
+    
+    background-color: transparent;
+  }
+  #login{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(242, 243, 250);
+    background-color: rgb(76, 73, 240);
+  }
+  #login:hover{
+    color: rgb(17, 17, 18);
+    background-color:  rgb(122, 133, 217);
+  }
+  #menu{
+    margin-right: 50px;
+  }
+  #body_div{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    animation: anim 10s infinite;
+
+  }
+  @keyframes anim {
+    0%{
+      background: url("./img1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    25%{
+      background: url("./img2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    50%{
+      background: url("./img3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    75%{
+      background: url("./img4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    100%{
+      background: url("./img1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .trend_near{
+    width: 100%;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.First_and_second_Imgs{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.first_img{
+  display: flex;
+  align-items: center;
+  transition: 1.5s;
+  
+}
+img[alt="alter1"]{
+  border-radius: 15px;
+}
+
+.first_img:hover{
+  transform: scale(1.1);
+}
+[alt="alter1"]{
+  height: 280px;
+  width: 230px;
+} 
+#new_imgs{
+  height: 260px;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+.new_images{
+  height: 290px;
+  width: 220px;  
+}
+img[alt="news_img"]{
+  height: 250px;
+  width: 100%;
+  border-radius: 50%;
+
+}
+footer{
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+}
+#inner_footer{
+  width: 100%;
+  height: 150px;
+  /* border: 2px solid wheat; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inner2_footer{
+  height:50px;
+  width: 150px;
+  /* border: 2px solid lawngreen; */
+}
+#footer_downloadApp{
+  width: 450px;
+  height: 150px;
+  /* border: 2px solid palevioletred; */
+  display: flex;
+  align-items: center;
+}
+.inner2_footer_left{
+  height:50px;
+  width: 50px;
+  /* border: 2px solid lawngreen; */
+  padding:15px 30px;
+}
+#unique{
+  height:50px;
+  width: 300px;
+  /* border: 2px solid lawngreen; */
+}
+#footer_icons{
+  width: 220px;
+  height: 150px;
+  /* border: 2px solid fuchsia; */
+  display: flex;
+  align-items: center;
+  
+}
+i.fa-brands{
+  font-size: 1.5em;
+}
+  #footer_last_elem{
+  height: 350px;
+  width: 100%;
+  /* border: 2px solid burlywood; */
+  
+ } 
+ #footer_last_elem{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+ }
+ .six_divs{
+  height: 150px;
+  width: 200px;
+  /* border: 2px solid violet; */
+ }
+ ul{
+  list-style: none;
+ }
